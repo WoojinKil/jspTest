@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=smartnavi_svn -Dsonar.projectName='smartnavi_svn'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=smartnavi_svn  -Dsonar.projectName=smartnavi_svn   -Dsonar.login=sqp_3d946172ba2f58e1c7f07d235b86dd1e95fa6f54
