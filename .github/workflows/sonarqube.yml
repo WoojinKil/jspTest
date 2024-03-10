@@ -69,5 +69,5 @@ jobs:
          -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
          -Dsonar.projectKey= smartnavi_svn 
          -Dsonar.projectName= smartnavi_svn
-         -Dsonar.host.url=http://127.0.0.1:9000
+         -Dsonar.host.url=https://127.0.0.1:9000
          
